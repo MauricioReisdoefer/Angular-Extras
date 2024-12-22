@@ -1,0 +1,64 @@
+.card-div-dark {
+    background-color: #222;
+    border-radius: 1rem;
+    max-width: 20rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Montserrat", serif;
+    color: white;
+  }
+
+.card-div-light {
+    justify-content: space-around;
+    background-color: #cecece;
+    border-radius: 1rem;
+    max-width: 20rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat", serif;
+    color: #000000;
+}
+
+.card-text {
+    text-align: left;
+    max-width: 85%;
+}
+
+.card-button-dark{
+    font-family: "Montserrat", serif;
+    border: none;
+    padding: 1rem 2rem;
+    background-color: #a1a1a1;
+    color: black;
+    transition: 0.3s;
+}
+
+.card-button-dark:hover{
+    background-color: #b1b0b0;
+}
+
+.card-button-dark:active{
+    background-color: #e9e8e8;
+}
+
+.card-button-light{
+    font-family: "Montserrat", serif;
+    padding: 1rem 2rem;
+    border: none;
+    color: white;
+    background-color: #222;
+    transition: 0.3s;
+}
+
+.card-button-light:hover{
+    background-color: #131313;
+}
+
+.card-button-light:active{
+    background-color: #000;
+}
